@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-06-05T13:46:20.812Z",
+    "end": "2024-06-05T13:46:23.682Z",
+    "duration": 2870,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9821ab07-35b0-4347-880a-e4f50f3d3feb",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\BDD\\GET.feature",
+      "file": "cypress\\integration\\examples\\BDD\\GET.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4082d799-2b8c-4709-b4bb-678be35fbeb6",
+          "title": "API testing GET",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify GET list users endpoint",
+              "fullTitle": "API testing GET Verify GET list users endpoint",
+              "timedOut": null,
+              "duration": 2536,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\integration\\\\examples\\\\BDD\\\\GET.feature\"\n}",
+              "code": "",
+              "err": {},
+              "uuid": "c328dff5-d5d8-4995-ba4e-6f3e75d8d95a",
+              "parentUUID": "4082d799-2b8c-4709-b4bb-678be35fbeb6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c328dff5-d5d8-4995-ba4e-6f3e75d8d95a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2536,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "ignoreVideos": false,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "json": true,
+        "html": false,
+        "code": false,
+        "timestamp": "mmddyyyy_HHMMss",
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
